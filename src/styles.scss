@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+.main-container{
+    max-width: 1440px;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    background-color: rgb(28, 27, 27);
+    color: rgba(255, 255, 255, 1);
+}
+
+.child-container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.font-jost{
+    font-family: 'Jost', sans-serif;
+
+}

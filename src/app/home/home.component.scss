@@ -1,0 +1,327 @@
+span {
+  color: rgba(150, 206, 180, 1);
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.padding-top{
+    padding-top: 100px;
+}
+
+.hedaing {
+  width: 622px;
+}
+
+.padding-top {
+  padding-top: 100px;
+}
+
+.intro-p {
+  font-size: 21px;
+  line-height: 39px;
+}
+
+.intro-btn {
+  background-color: rgba(76, 64, 247, 1);
+  border-radius: 8px;
+  font-weight: 500;
+  border: none;
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+  padding: 10px 19px 10px;
+}
+
+.padding-left {
+  padding-left: 66px;
+}
+
+.w-353{
+    width: 353px;
+}
+
+.pt-7rem{
+    padding-top: 8rem;
+}
+
+.a-color{
+    color: rgba(150, 206, 180, 1);
+}
+
+.service-p{
+    font-size: 18px;
+    line-height: 32px;
+    padding-right: 50px;
+}
+
+h4{
+    font-size: 24px;
+    color: rgba(255, 173, 96, 1);
+}
+
+.gradient{
+    background: linear-gradient(180deg, rgba(76, 64, 247, 0.27) 0%, rgba(76, 64, 247, 0.1134) 100%);
+}
+
+.w-424px{
+    width: 424px;
+}
+
+.img-graphic{
+    position: relative;
+    bottom: 131px;
+}
+
+.testi{
+    font-size: 18px;
+    color: rgba(255, 173, 96, 1);
+    font-weight: 400px;
+    letter-spacing: 5px;
+}
+
+.content{
+    width: 343px;
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    border-radius: 18.12px;
+    text-align: center;
+padding: 0px 43px 9px 43px;
+}
+
+.slider-img{
+    bottom: 23px;
+    border-radius: 100px;
+    border: 8px solid rgba(255, 255, 255, 1);
+}
+
+.slider-p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.font-12{
+    font-size: 12px;
+}
+
+
+.mar{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.color i {
+  color:black;
+  background: white;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+.border-radius{
+    width: 1201px;
+    height: 407px;
+    border-radius: 129px 20px 20px 20px;
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+}
+
+.w-888px{
+    width: 100%;
+}
+
+.border-img img{
+    position: relative;
+    right: 61px;
+    top: -10px;
+}
+
+.border-p{
+    font-size: 33px;
+    line-height: 54px;
+    font-weight: 600;
+    padding-right: 200px;
+    padding-left: 200px;
+}
+
+.msg{
+    width: 67px;
+    max-width: 100%;
+}
+
+.plus{
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+    top: 20px;
+    z-index: 1;
+}
+
+input[type="email"]{
+    width: 421px;
+    max-width: 100%;
+    height: 51px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+.border-btn{
+    width: 180px;
+    max-width: 100%;
+    background-color: rgba(255, 173, 96, 1);
+    color: white;
+    border-radius: 10px;
+    border:none;
+    font-weight: 700;
+}
+
+
+
+
+@media (max-width: 733px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .intro-p {
+    font-size: large;
+    line-height: 27px;
+    padding-top: 40px;
+  }
+h2{
+    font-size: 29px;
+}
+
+.flexcol{
+    flex-direction: column;
+}
+
+.pt-7rem{
+    padding-top: 5rem;
+}
+
+}
+
+@media (max-width: 530px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  .hedaing {
+    width: 100%;
+  }
+
+  .intro-p {
+    font-size: small;
+    line-height: 25px;
+  }
+
+.pt-4{
+    padding-top: 11px !important;
+}
+
+.intro-btn{
+    width: 100%;
+}
+.flexcol{
+    flex-direction: column;
+    align-items: flex-start !important;
+}
+
+.pt-7rem{
+    padding-top: 5rem;
+}
+
+.w-353{
+    width: 64%;
+}
+
+
+}
+
+
+@media (max-width:770px){
+    h2{
+        font-size: 28px;
+    }
+
+
+    .w-424px{
+        width: 100%;
+    }
+
+    .pd-sm-30px{
+        padding-top: 50px;
+    }
+
+    .pt-5{
+        padding-top: 0px !important;
+    }
+
+}
+
+@media (max-width:764px) {
+    .img-graphic{
+        bottom: 0px;
+    }
+}
+
+
+@media (max-width:780px){
+.border-p{
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 23px;
+    line-height: 35px;
+}
+
+.subscribe{
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.border-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+}
+
+
+
+@media (max-width:558px){
+    .border-radius-content{
+        flex-direction: column;
+    }
+
+    .border-radius{
+        width: 100%;
+    }
+
+    .subscribe{
+        width: 100%;
+    }
+
+    .border-p{
+        font-size: 18px;
+        line-height: 31px;
+    }
+
+    .border-img, .msg, .plus{
+        display: none;
+    }
+
+
+}

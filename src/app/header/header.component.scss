@@ -1,0 +1,36 @@
+.blue-sm-radius{
+    width: 11px;
+    height: 11px;
+    background-color: rgba(76, 64, 247, 1);
+    border-radius: 100px;
+}
+
+ul{
+    font-family: 'Jost', sans-serif;
+}
+
+.header-btn{
+    color: rgba(255, 173, 96, 1);
+    background: transparent;
+    border-radius: 8px;
+    border-color: rgba(255, 173, 96, 1);
+    padding: 4px 16px 4px 16px;
+}
+
+ul li {
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+
+.letter-space{
+    letter-spacing: 4px;
+}
+
+@media (max-width:530px){
+    .flex-col{
+        flex-direction: column;
+        align-items: start;
+        gap: 1rem;
+    }
+}

@@ -243,6 +243,10 @@ h2{
 }
 
 
+.padding-top1{
+    padding-top: 100px;
+}
+
 }
 
 
@@ -269,6 +273,10 @@ h2{
 @media (max-width:764px) {
     .img-graphic{
         bottom: 0px;
+    }
+
+    .padding-top1{
+        padding-top: 100px;
     }
 }
 
